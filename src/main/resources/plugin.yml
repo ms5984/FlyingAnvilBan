@@ -1,0 +1,5 @@
+name: FlyingAnvilBan
+version: ${project.version}
+main: com.github.ms5984.spigot.fun.flyinganvilban.FlyingAnvilBan
+api-version: 1.16
+authors: [ ms5984 ]

@@ -1,0 +1,23 @@
+# This config is really simple, just customize the hammer,
+# commands, and messages.
+
+hammer:
+  material: IRON_AXE
+  unbreaking: true # easiest way to have it shimmer
+  name: '&k-&7Banvil Hammer&k-'
+  lore:
+    - '&aThanos snap your victim'
+
+commands:
+  anvilhammer: # get the hammer object
+    label: anvilhammer
+    aliases: [banhammer]
+    description: Get the Anvil Hammer
+    permission: 'fab.hammer'
+  bananvil: # throws anvil from in front of the player
+    label: bananvil
+    aliases: [banvil]
+    description: Hurl an anvil at a lucky player.
+    permission: 'fab.anvil'
+
+Messages:
